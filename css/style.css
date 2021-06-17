@@ -18,6 +18,7 @@ header {
     color: white;
 }
 .menu-container{
+    position: relative;
     width: 90%;
     
     height: 80px;
@@ -44,9 +45,30 @@ a {
     padding: 0 10px;
 
 }
-li #bottone-accedi {
-    position: absolute;
-    right: 0;
+.bottone {
+    width: auto;
+   background-color: white;
+   color: black;
+   padding: 10px 15px;
+   border-radius: 20px;
+   margin-top: 40px;
+   margin-left: 10px;
+   margin-right: 10px;
+   font-size: 20px;
+}
+#contenitore-bottoni {
+    width: auto;
+    height: 50px;
+}
+ #bottone-accedi {
+   position: absolute;
+   width: auto;
+   background-color: white;
+   padding: 10px 15px;
+   border-radius: 20px;
+}
+.bottone a {
+    color: black;
 }
 /* inizio banner  */
 .banner {
@@ -57,6 +79,13 @@ li #bottone-accedi {
     text-align: center;
     width: 60%;
     margin: 0 auto;
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#testo-banner {
+    margin-bottom: 30px;
 }
 
 
